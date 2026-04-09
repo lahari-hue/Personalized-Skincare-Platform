@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalized Skincare Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">GlowGuide AI</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#consultation">Consultation</a></li>
+                <li><button class="login-btn">Login / Register</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="assessment" class="quiz-section">
+        <h2>Find Your Perfect Routine</h2>
+        <p>Complete this quiz for AI-driven recommendations[cite: 16].</p>
+        <form id="skinQuiz">
+            <div class="question">
+                <label>What is your skin type?</label>
+                <select name="skinType" required>
+                    <option value="oily">Oily</option>
+                    <option value="dry">Dry</option>
+                    <option value="combination">Combination</option>
+                    <option value="sensitive">Sensitive</option>
+                </select>
+            </div>
+            <div class="question">
+                <label>Main Skin Concern?</label>
+                <input type="checkbox" name="concern" value="acne"> Acne
+                <input type="checkbox" name="concern" value="aging"> Anti-aging
+                <input type="checkbox" name="concern" value="dullness"> Dullness
+            </div>
+            <button type="submit" class="cta-btn">Get My Recommendations</button>
+        </form>
+    </section>
+
+    <section id="products" class="product-grid">
+        <h3>Recommended for You</h3>
+        <div class="product-container">
+            <div class="product-card">
+                <img src="serum.jpg" alt="Serum">
+                <h4>Hydrating Serum</h4>
+                <p>Ingredients: Hyaluronic Acid, Aloe [cite: 13]</p>
+                <span class="price">$24.99</span>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="consultation" class="expert-support">
+        <div class="support-box">
+            <h3>Consult with Experts</h3>
+            <p>Speak with our dermatologists for natural product suggestions[cite: 5, 25].</p>
+            <button class="chat-btn">Start Live Chat</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Personalized Skincare E-commerce. All rights reserved.</p>
+        <div class="tracking">
+            <a href="#">Track My Order</a>
+        </div>
+    </footer>
+
+</body>
+</html>
